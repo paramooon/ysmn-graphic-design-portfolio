@@ -3,25 +3,136 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="YSMN — портфолио графического дизайнера. Айдентика, арт-дирекшн и визуальные системы." />
+    <meta
+      name="description"
+      content="YSMN — портфолио графического дизайнера. Айдентика, арт-дирекшн и визуальные системы."
+    />
     <title>YSMN — Graphic Designer</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="portfolio.css" />
     <link rel="stylesheet" href="profile.css" />
     <script defer src="portfolio-data.js"></script>
-    <script defer src="portrait-data.js"></script>
     <script defer src="script.js"></script>
     <script defer src="portfolio.js"></script>
   </head>
   <body>
-    <div class="noise" aria-hidden="true"></div><div class="cursor" aria-hidden="true"></div>
-    <header class="nav" aria-label="Главная навигация"><a class="logo magnetic" href="#top" aria-label="YSMN — наверх">YSMN<span>®</span></a><nav><a href="#work">Проекты</a><a href="#about">Обо мне</a><a href="#contact">Контакт</a></nav><button class="menu-btn" type="button" aria-label="Открыть меню" aria-expanded="false">Меню</button></header>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="cursor" aria-hidden="true"></div>
+
+    <header class="nav" aria-label="Главная навигация">
+      <a class="logo magnetic" href="#top" aria-label="YSMN — наверх"
+        >YSMN<span>®</span></a
+      >
+      <nav>
+        <a href="#work">Проекты</a>
+        <a href="#about">Обо мне</a>
+        <a href="#contact">Контакт</a>
+      </nav>
+      <button
+        class="menu-btn"
+        type="button"
+        aria-label="Открыть меню"
+        aria-expanded="false"
+      >
+        Меню
+      </button>
+    </header>
+
     <main id="top">
-      <section class="hero" aria-labelledby="hero-title"><p class="eyebrow reveal">Независимый графический дизайнер · 2026</p><div class="showreel" aria-label="Видеошоурил избранных проектов"><video class="showreel-video" autoplay muted loop playsinline preload="metadata" poster="assets/identity.webp"><source src="assets/ysmn-showreel.mp4" type="video/mp4" /></video><div class="showreel-video-overlay" aria-hidden="true"><span>YSMN / SHOWREEL ’26</span><strong>SELECTED<br />WORK</strong></div><div class="reel-chrome"><span>FULL HD · 12 SEC</span><span>01 / 06</span></div></div><h1 id="hero-title" class="hero-title" aria-label="Создаю визуальные системы, которые остаются в памяти"><span class="line"><span>Создаю</span></span><span class="line outline"><span>визуальные</span></span><span class="line"><span>системы.</span></span></h1><div class="hero-meta reveal"><p>Айдентика, арт-дирекшн<br />и digital-дизайн для смелых идей.</p><a class="round-link magnetic" href="#work" aria-label="Смотреть проекты"><span>↓</span></a></div><div class="orb orb-a" aria-hidden="true"></div><div class="orb orb-b" aria-hidden="true"></div></section>
-      <section class="ticker" aria-label="Направления работы"><div class="ticker-track"><span>Брендинг ✦ Типографика ✦ Арт-дирекшн ✦ Упаковка ✦ Digital ✦ </span><span aria-hidden="true">Брендинг ✦ Типографика ✦ Арт-дирекшн ✦ Упаковка ✦ Digital ✦ </span></div></section>
-      <section class="work" id="work" aria-labelledby="work-title"><div class="section-head reveal"><p>Работы из портфолио</p><h2 id="work-title">6 направлений / 91 страница</h2></div><div class="service-filter reveal" data-service-filter aria-label="Фильтр работ по услугам"></div><div class="real-work-grid" data-portfolio-grid></div><noscript><p>Для просмотра интерактивного портфолио включите JavaScript.</p></noscript></section>
-      <section class="about" id="about" aria-labelledby="about-title"><p class="section-label reveal">Коротко обо мне</p><figure class="about-portrait reveal"><img data-portrait alt="Gennady Lanin" width="420" height="700" /><figcaption>Gennady Lanin</figcaption></figure><h2 id="about-title" class="reveal">Превращаю сложные идеи в <em>ясные</em> и выразительные визуальные истории.</h2><div class="about-grid reveal"><p>Работаю на стыке стратегии, типографики и движения. Создаю айдентику, которая уверенно живёт в любом масштабе — от визитки до городской среды.</p><ul><li>Арт-дирекшн</li><li>Бренд-айдентика</li><li>Editorial</li><li>Motion-концепции</li></ul><div class="stat"><strong>07</strong><span>лет в дизайне</span></div></div></section>
-      <section class="contact" id="contact" aria-labelledby="contact-title"><p class="reveal">Есть идея?</p><h2 id="contact-title" class="reveal">Давайте сделаем<br /><span>что-то заметное.</span></h2><div class="contact-links reveal"><a class="contact-link magnetic" href="mailto:gl@artel-g.ru">gl@artel-g.ru ↗</a><a class="contact-link magnetic" href="https://t.me/Gennady_Artel_G" target="_blank" rel="noopener">@Gennady_Artel_G ↗</a></div><footer><span>© YSMN 2026</span><span>Москва · Работаю по всему миру</span><a href="#top">Наверх ↑</a></footer></section>
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow reveal">Независимый графический дизайнер · 2026</p>
+        <div class="showreel" aria-label="Видеошоурил избранных проектов">
+          <video class="showreel-video" autoplay muted loop playsinline preload="metadata" poster="assets/identity.webp">
+            <source src="assets/ysmn-showreel.mp4" type="video/mp4" />
+          </video>
+          <div class="showreel-video-overlay" aria-hidden="true"><span>YSMN / SHOWREEL ’26</span><strong>SELECTED<br />WORK</strong></div>
+          <div class="reel-chrome"><span>FULL HD · 12 SEC</span><span>01 / 06</span></div>
+        </div>
+        <h1
+          id="hero-title"
+          class="hero-title"
+          aria-label="Создаю визуальные системы, которые остаются в памяти"
+        >
+          <span class="line"><span>Создаю</span></span>
+          <span class="line outline"><span>визуальные</span></span>
+          <span class="line"><span>системы.</span></span>
+        </h1>
+        <div class="hero-meta reveal">
+          <p>Айдентика, арт-дирекшн<br />и digital-дизайн для смелых идей.</p>
+          <a
+            class="round-link magnetic"
+            href="#work"
+            aria-label="Смотреть проекты"
+            ><span>↓</span></a
+          >
+        </div>
+        <div class="orb orb-a" aria-hidden="true"></div>
+        <div class="orb orb-b" aria-hidden="true"></div>
+      </section>
+
+      <section class="ticker" aria-label="Направления работы">
+        <div class="ticker-track">
+          <span
+            >Брендинг ✦ Типографика ✦ Арт-дирекшн ✦ Упаковка ✦ Digital ✦
+          </span>
+          <span aria-hidden="true"
+            >Брендинг ✦ Типографика ✦ Арт-дирекшн ✦ Упаковка ✦ Digital ✦
+          </span>
+        </div>
+      </section>
+
+      <section class="work" id="work" aria-labelledby="work-title">
+        <div class="section-head reveal">
+          <p>Работы из портфолио</p>
+          <h2 id="work-title">6 направлений / 91 страница</h2>
+        </div>
+        <div class="service-filter reveal" data-service-filter aria-label="Фильтр работ по услугам"></div>
+        <div class="real-work-grid" data-portfolio-grid></div>
+        <noscript><p>Для просмотра интерактивного портфолио включите JavaScript.</p></noscript>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-title">
+        <p class="section-label reveal">Коротко обо мне</p>
+        <figure class="about-portrait reveal">
+          <video class="about-portrait-video" autoplay muted loop playsinline preload="metadata" poster="assets/gennady-lanin.webp" aria-label="Gennady Lanin — анимированный портрет">
+            <source src="assets/gennady-lanin-loop.mp4" type="video/mp4" />
+          </video>
+          <figcaption>Gennady Lanin</figcaption>
+        </figure>
+        <h2 id="about-title" class="reveal">
+          Превращаю сложные идеи в <em>ясные</em> и выразительные визуальные
+          истории.
+        </h2>
+        <div class="about-grid reveal">
+          <p>
+            Работаю на стыке стратегии, типографики и движения. Создаю
+            айдентику, которая уверенно живёт в любом масштабе — от визитки до
+            городской среды.
+          </p>
+          <ul>
+            <li>Арт-дирекшн</li>
+            <li>Бренд-айдентика</li>
+            <li>Editorial</li>
+            <li>Motion-концепции</li>
+          </ul>
+          <div class="stat"><strong>07</strong><span>лет в дизайне</span></div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <p class="reveal">Есть идея?</p>
+        <h2 id="contact-title" class="reveal">
+          Давайте сделаем<br /><span>что-то заметное.</span>
+        </h2>
+        <div class="contact-links reveal">
+          <a class="contact-link magnetic" href="mailto:gl@artel-g.ru">gl@artel-g.ru ↗</a>
+          <a class="contact-link magnetic" href="https://t.me/Gennady_Artel_G" target="_blank" rel="noopener">@Gennady_Artel_G ↗</a>
+        </div>
+        <footer>
+          <span>© YSMN 2026</span><span>Москва · Работаю по всему миру</span
+          ><a href="#top">Наверх ↑</a>
+        </footer>
+      </section>
     </main>
   </body>
 </html>
